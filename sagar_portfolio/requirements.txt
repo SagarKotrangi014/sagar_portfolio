@@ -1,12 +1,2 @@
 Flask==2.3.2
 gunicorn==21.2.0
-
-
-│   ├── index.html
-│   ├── about.html
-│   ├── skills.html
-│   ├── projects.html
-│   ├── certifications.html
-│   ├── internship.html
-│   ├── resume.html
-│   └── contact.html

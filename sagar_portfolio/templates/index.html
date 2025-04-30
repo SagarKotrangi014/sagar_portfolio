@@ -3,14 +3,16 @@
 {% block title %}Home - Sagar Kotrangi{% endblock %}
 
 {% block content %}
-<div class="text-center">
+<div class="container text-center fade-in">
+    <img src="{{ url_for('static', filename='profile.jpg') }}" alt="Profile Photo of Sagar Kotrangi" class="rounded-circle mb-4" width="200" height="200">
+
     <h1>{{ name }}</h1>
     <p class="lead">{{ title }}</p>
     <p>
         <a href="{{ linkedin }}" class="btn btn-primary m-2" target="_blank">LinkedIn</a>
         <a href="{{ github }}" class="btn btn-dark m-2" target="_blank">GitHub</a>
     </p>
-    <hr>
-    <p>Welcome to my portfolio website built with Python and Flask!</p>
+    <hr class="my-4">
+    <p>Welcome to my portfolio website built with Python, Flask, and Bootstrap!</p>
 </div>
 {% endblock %}

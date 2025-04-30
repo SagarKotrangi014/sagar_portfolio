@@ -2,7 +2,7 @@
 
 This is my personal portfolio website built using **Python (Flask)** and **Bootstrap 5**, designed to showcase my education, skills, projects, certifications, internship experience, and contact details.
 
-> 💡 **Live Site**: *(Coming soon – will update once deployed on Render)*
+> 💡 **Live Site**: https://sagar-portfolio-l8ke.onrender.com
 
 ---
 
